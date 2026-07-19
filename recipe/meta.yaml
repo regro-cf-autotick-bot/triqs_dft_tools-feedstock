@@ -1,4 +1,4 @@
-{% set version = "3.3.2" %}
+{% set version = "4.0.0" %}
 
 package:
   name: triqs_dft_tools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/TRIQS/dft_tools/releases/download/{{ version }}/dft_tools-{{ version }}.tar.gz
-  sha256: 1975355571701319fbd378a9ae626a4c49fa44088512b8e173220d7e38a0c66a
+  sha256: 377c5f076f30fcfbbfab5f216c1b12d7fe63bb665cb02977b5237d0480162be5
 
 build:
   number: 0
